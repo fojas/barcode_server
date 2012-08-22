@@ -10,9 +10,9 @@ Gem::Specification.new do |s|
 
   s.add_dependency "barby", "~> 0.5"
   s.add_dependency "rqrcode", "~> 0.4"
-  s.add_dependency "cairo", "~> 1.12"
   s.add_dependency 'chunky_png', '~> 1.2'
 
+  s.add_development_dependency "cairo", "~> 1.12"
   s.add_development_dependency "rspec"
   s.add_development_dependency "rack-test"
   s.add_development_dependency "nokogiri"
